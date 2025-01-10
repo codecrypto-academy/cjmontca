@@ -14,7 +14,7 @@ async function getPool(con) {
     return new Promise(async (resolve, reject) => {
         if (pool) resolve(pool)
         try{
-            pool = await oracledb.createdPool(con)
+            pool = await oracledb.createPool(con)
         } catch (error) {
             reject(error);
         }
