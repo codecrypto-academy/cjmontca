@@ -1,0 +1,116 @@
+{
+    "header": {
+        "nombre": "CM Company",
+        "links": [
+            {
+                "texto": "blog",
+                "url": "http://blog.com"
+            },
+            {
+                "texto": "youtube",
+                "url": "http://youtube.com"
+            }
+        ]
+    },
+    "precios":[
+        {
+            "titulo": "free",
+            "precio":"$0",
+            "por": "month",
+            "textBoton": "Sign up for free",
+            "features": [
+                "10 users included",
+                "2Gb ",
+                "Email ",
+                "Help Center cripto"
+            ]
+        },
+        {
+            "titulo": "pro",
+            "precio":"$0",
+            "por": "month",
+            "textBoton": "Sign up for free",
+            "features": [
+                "10 users included",
+                "2Gb ",
+                "Email ",
+                "Help Center cripto"
+            ]
+        },
+        {
+            "titulo": "enterprise",
+            "precio":"$0",
+            "por": "month",
+            "textBoton": "Sign up for free",
+            "features": [
+                "10 users included",
+                "2Gb ",
+                "Email ",
+                "Help Center cripto"
+            ]
+        }
+
+    ],
+    "carrusel":[
+        {
+            "texto": "New service on the world",
+            "url": "/imagen1.jpg",
+            "alt": "texto alternativo"
+        },
+        {
+            "texto": "We offer six month free",
+            "url": "/imagen2.jpg",
+            "alt": "texto alternativo"
+        },
+        {
+            "texto": "New features",
+            "url": "/imagen3.jpg",
+            "alt": "texto alternativo"
+        }
+
+    ],
+    "footer": [
+        {
+            "titulo": "Social",
+            "links":[
+                {
+                    "titulo": "Youtube",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Twitter",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Instagram",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Facebook",
+                    "url": "http://..."
+                }
+            ]
+        },
+        {
+            "titulo": "Help",
+            "links":[
+                {
+                    "titulo": "Contact",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Email",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Privacy",
+                    "url": "http://..."
+                },
+                {
+                    "titulo": "Term and conditions",
+                    "url": "http://..."
+                }
+            ]
+        }
+    ]    
+}
