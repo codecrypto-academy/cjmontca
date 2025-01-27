@@ -22,12 +22,14 @@ export function Home(){
         }
     }
 
-    return <div>
-        <h3>Explorador de la cadena de Ethereum</h3>
-        <form onSubmit={handleSubmit(submitForm)}>
-            <input {...register("data")}></input>
+    return <div className="container">
+        <h3 className="text-cnter">Explorador de la cadena de Ethereum</h3>
+        <form className="-d-flex justify-content-center gap-1" onSubmit={handleSubmit(submitForm)}>
+            <input {...register("data")} size={70}></input>
             <button className="btn btn-primary">GO</button>
         </form>
+        <div className="border my-3 p-2">
         <Outlet />
+        </div>
     </div>
 }
