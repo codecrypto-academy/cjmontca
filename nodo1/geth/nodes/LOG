@@ -120,3 +120,14 @@
 20:35:22.890047 version@stat F·[0 1] S·928B[0B 928B] Sc·[0.00 0.00]
 20:35:22.890934 table@compaction committed F-1 S-1KiB Ke·0 D·185 T·7.980061ms
 20:35:22.891006 table@remove removed @27
+=============== Feb 4, 2025 (CET) ===============
+20:38:46.720303 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:38:46.720895 version@stat F·[0 1] S·928B[0B 928B] Sc·[0.00 0.00]
+20:38:46.720917 db@open opening
+20:38:46.721177 journal@recovery F·1
+20:38:46.727496 journal@recovery recovering @29
+20:38:46.737179 memdb@flush created L0@32 N·3598 S·33KiB "loc..seq,v5840":"n:\xe4..ail,v5839"
+20:38:46.737660 version@stat F·[1 1] S·34KiB[33KiB 928B] Sc·[0.25 0.00]
+20:38:46.743526 db@janitor F·5 G·1
+20:38:46.743551 db@janitor removing table-28
+20:38:46.743594 db@open done T·22.66885ms
