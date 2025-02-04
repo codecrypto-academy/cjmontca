@@ -1,0 +1,11 @@
+{
+  "name": "web2.5-ethereum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/codecrypto-academy/cjmontca.git",
+  "author": "cjmontca <jcarlosmc2008@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^4.16.0"
+  }
+}
